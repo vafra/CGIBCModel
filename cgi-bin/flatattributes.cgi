@@ -13,7 +13,7 @@ for key in inputs:
 db.addNewRec("Tbl_Attribute", fill)
 
 print "Content-type:text/html\r\n\r\n"
-print "<html><head><title>You can add a new attribute for flats </title></head><body>"
+print "<html><head><title>Here you can add a new attribute for flats </title></head><body>"
 db.getList("Tbl_Attribute")
 print "<Form method='post' action = 'flatattributes.cgi'>"
 print "<label> Name: </label></label><input type='text' name='name'></input>"
